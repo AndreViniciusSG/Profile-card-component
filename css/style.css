@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+/* Formatação do Body */	
+body {
+	font-family: Arial; sans-serif;
+	background-color: rgba(25, 161, 173, 1);
+	padding: 0;
+	margin: 0;
+	width: 100vw;
+	height: 100vh;
+}
+/* Formatação do container principal */
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(25, 161, 173, 1);
+	text-align: center;
+}
+/* Formatação da div caixa filho do container principal */
+.caixa{
+	width: 340px;
+	height: 345px;
+	padding: 0;
+	background-color: white;
+	text-align: center;
+	border-radius: 15px;
+}
+/* Formatação da div dentro da div caixa */
+#cabeca{
+	background-image: url(../images/bg-pattern-card.svg);
+	background-repeat: no repeat;
+	background-size: cover;
+	padding: 65px;
+	margin: 0;
+	border-radius: 15px 15px 0px 0px;
+}
+/* Formatação da div fotoperfil dentro da div caixa */
+#fotoperfil{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	top: -65px;
+}
+/* Formatação da div perfil dentro da div caixa */
+#perfil{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	background-color: white;
+	padding: 10px 0px 0px 0px;
+	margin: 0;
+	top: -65px;
+}
+/* Formatação da div perfil dentro da div london */
+#london{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	background-color: white;
+	border-bottom: 1px solid gray;
+	padding: 5px 0px 20px 0px;
+	margin: 0;
+	top: -65px;
+}	
+/* Formatação da div dados dentro da div caixa */
+#dados{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	background-color: white;
+	padding: 15px 0px 0px 0px;
+	margin: 0;
+	top: -65px;
+}
+/* Formatação da div info dentro da div caixa */
+#info{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	background-color: white;
+	padding: 0;
+	margin: 0;
+	top: -65px;
+}
+/* Formatação do h1 da div dados dentro da div caixa */
+#perfil h1{
+	font-family: Arial; sans-serif;
+	font-size: 20pt;
+	color: rgba(54, 56, 71, 1);
+	text-align: center;
+	padding: 10px 0px 0px 0px;
+	margin: 0;
+}
+/* Formatação do h2 da div dados dentro da div caixa */
+#perfil h2{
+	font-family: Century Gothic;
+	font-size: 18pt;
+	color: gray;
+	text-align: center;
+	padding: 10px 0px 5px 10px;
+	margin: 0;
+}
+/* Formatação do h1 da div london dentro da div caixa */
+#london h1{
+	font-family: Century Gothic;
+	font-size: 10pt;
+	color: gray;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+/* Formatação do p div dados dentro da div caixa */
+#dados p{
+	font-family: Arial; sans-serif;
+	font-size: 15pt;
+	font-weight: bold;
+	color: rgba(54, 56, 71, 1);
+	text-align: center;
+	padding: 0px 25px 0px 25px;
+	margin: 0;
+}
+/* Formatação do p div dados dentro da div caixa */
+#info p{
+	font-family: Century Gothic;
+	font-size: 10pt;
+	color: gray;
+	text-align: center;
+	padding: 0px 30px 0px 30px;
+	margin: 0;
+}
